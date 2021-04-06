@@ -1,0 +1,27 @@
+---
+title: "Video Games and sliced"
+author: "Stephen Wang"
+date: "3/16/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tidytuesdayR)
+theme_set(theme_light())
+```
+
+```{r Load}
+
+tt <- tt_load("2021-02-23")
+tt
+
+tt
+```
